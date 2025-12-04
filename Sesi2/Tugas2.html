@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Dodi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background / gradient -->
+    <div class="app-background">
+
+        <!-- Wrapper utama -->
+        <div class="page-shell">
+
+            <!-- ========= HEADER / NAV ========= -->
+            <header class="site-header">
+                <div class="section-inner">
+                    <div class="site-header__left">
+                        <div class="brand-logo">Brand</div>
+                    </div>
+                    <nav class="site-header__nav">
+                        <a href="#hero" class="nav-link">Header</a>
+                        <a href="#about" class="nav-link">Biodata</a>
+                        <a href="#portfolio" class="nav-link">Portofolio</a>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- ========= MAIN CONTENT ========= -->
+            <main>
+
+                <!-- ========= HERO ========= -->
+                <section id="hero" class="hero">
+                    <div class="section-inner">
+                        <div class="hero__grid">
+                            <!-- Kolom teks -->
+                            <div class="hero__content">
+                                <p class="hero__eyebrow">Welcome</p>
+                                <h1 class="hero__title">
+                                    Selamat Datang di Website Saya
+                                </h1>
+                                <p class="hero__subtitle">
+                                    Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks
+                                    perkenalan singkat dan tombol aksi utama.
+                                </p>
+                                <div class="hero__actions">
+                                    <button class="btn btn--primary">Pelajari Lebih Lanjut</button>
+                                    <button class="btn btn--ghost">Lihat Portofolio</button>
+                                </div>
+                            </div>
+
+                            <!-- Kolom gambar -->
+                            <div class="hero__media">
+                                <div class="hero-avatar">
+                                    <img src="images/image1.jpg" alt="Foto Profil Dodi" class="hero-avatar__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ========= ABOUT ========= -->
+                <section id="about" class="about">
+                    <div class="section-inner">
+                        <header class="section-header">
+                            <h2 class="section-header__title">About Me</h2>
+                            <p class="section-header__subtitle">
+                                A brief introduction about myself
+                            </p>
+                        </header>
+
+                        <!-- Grid biodata -->
+                        <div class="about__grid">
+                            <article class="info-card">
+                                <h3 class="info-card__label">Full Name</h3>
+                                <p class="info-card__value">Muhammad Abdul Hafiz</p>
+                            </article>
+
+                            <article class="info-card">
+                                <h3 class="info-card__label">Contact</h3>
+                                <p class="info-card__value">havis.id013@gmail.com</p>
+                            </article>
+
+                            <article class="info-card">
+                                <h3 class="info-card__label">Education</h3>
+                                <p class="info-card__value">S1 Sistem Informasi</p>
+                            </article>
+
+                            <article class="info-card">
+                                <h3 class="info-card__label">Hobi</h3>
+                                <p class="info-card__value">Coding, Watching Movies</p>
+                            </article>
+
+                            <article class="info-card">
+                                <h3 class="info-card__label">Pekerjaan</h3>
+                                <p class="info-card__value">None</p>
+                            </article>
+
+                            <article class="info-card">
+                                <h3 class="info-card__label">Alamat</h3>
+                                <p class="info-card__value">Semarang</p>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ========= PORTFOLIO ========= -->
+                <section id="portfolio" class="portfolio">
+                    <div class="section-inner">
+                        <header class="section-header">
+                            <h2 class="section-header__title">Portofolio</h2>
+                            <p class="section-header__subtitle">
+                                Beberapa proyek yang pernah saya kerjakan
+                            </p>
+                        </header>
+
+                        <div class="portfolio__grid">
+                            <!-- Kartu 1 -->
+                            <a href="https://github.com/Hafiz-ID013/Drum-Kit"
+                               target="_blank"
+                               class="portfolio-card">
+                                <div class="portfolio-card__thumb">
+                                    <img src="images/image2.png" alt="Drum Kit" class="portfolio-card__img">
+                                </div>
+                                <div class="portfolio-card__body">
+                                    <h3 class="portfolio-card__title">Drum Kit</h3>
+                                    <p class="portfolio-card__desc">Deskripsi singkat proyek 1.</p>
+                                </div>
+                            </a>
+
+                            <!-- Kartu 2 -->
+                            <a href="https://github.com/Hafiz-ID013/Simon-Game-Challenge"
+                               target="_blank"
+                               class="portfolio-card">
+                                <div class="portfolio-card__thumb">
+                                    <img src="images/image3.png" alt="Simon Game Challenge" class="portfolio-card__img">
+                                </div>
+                                <div class="portfolio-card__body">
+                                    <h3 class="portfolio-card__title">Simon Game Challenge</h3>
+                                    <p class="portfolio-card__desc">Deskripsi singkat proyek 2.</p>
+                                </div>
+                            </a>
+
+                            <!-- Kartu 3 -->
+                            <a href="https://link-project-1.com"
+                               target="_blank"
+                               class="portfolio-card">
+                                <div class="portfolio-card__thumb">
+                                    <img src="images/image4.png" alt="Tindog" class="portfolio-card__img">
+                                </div>
+                                <div class="portfolio-card__body">
+                                    <h3 class="portfolio-card__title">Tindog</h3>
+                                    <p class="portfolio-card__desc">Deskripsi singkat proyek 3.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+
+            <!-- ========= FOOTER ========= -->
+            <footer class="site-footer">
+                <div class="section-inner">
+                    <p class="site-footer__text">
+                        © 2025 Muhammad Abdul Hafiz. All rights reserved.
+                    </p>
+                </div>
+            </footer>
+
+        </div> <!-- /page-shell -->
+
+    </div> <!-- /app-background -->
+
+</body>
+</html>
