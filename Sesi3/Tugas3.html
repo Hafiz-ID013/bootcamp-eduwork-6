@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3</title>
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Kamu -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!-- ============= NAVBAR ============= -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+
+        <!-- Brand / Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+            My Portfolio
+        </a>
+
+        <!-- Toggle (Mobile) -->
+        <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto gap-lg-4 gap-2">
+
+                <li class="nav-item">
+                <a class="nav-link active" href="#hero">Home</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    </nav>
+
+    <!-- ============= HERO SECTION ================= -->
+    <section id="hero" class="hero-section py-5">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+        <!-- Text Area -->
+        <div class="col-lg-6 col-md-12 text-center text-lg-start">
+
+            <p class="hero-tag mb-2">Hello, I’m Hafiz 👋</p>
+
+            <h1 class="hero-title fw-bold mb-3">
+                Web <span class="text-gradient">Developer</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+                I design and build clean, modern, and responsive websites using
+                the latest technologies — with attention to detail in both
+                functionality and visual aesthetics.
+            </p>
+
+            <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+            <a href="#projects" class="btn btn-primary px-4 py-2 hero-btn">View Projects</a>
+
+            <button class="btn btn-outline-dark px-4 py-2 hero-btn"
+                data-bs-toggle="modal" data-bs-target="#contactModal">
+                Contact Me
+            </button>
+            </div>
+
+        </div>
+
+        <!-- Image Area -->
+        <div class="col-lg-6 col-md-12 mt-5 mt-lg-0 text-center">
+            <div class="hero-image-wrapper mx-auto">
+            <img src="images/image1.jpg" alt="My Photo" class="hero-image">
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="about-section py-5">
+    <div class="container">
+
+        <!-- Title -->
+        <div class="text-center mb-5">
+        <h2 class="section-title fw-bold">About Me</h2>
+        <p class="section-subtitle text-secondary">
+            A short introduction about who I am and what I do.
+        </p>
+        </div>
+
+        <!-- Content -->
+        <div class="row justify-content-center">
+
+        <!-- Left Text -->
+        <div class="col-lg-6 col-md-10 mb-5 text-center text-lg-start">
+            <p class="about-text">
+            Hello! I’m Hafiz, a passionate web developer who enjoys building modern,
+            responsive, and functional websites using the latest web technologies.
+            I focus on writing clean, maintainable code while always exploring better
+            ways to solve problems using technology.
+            </p>
+
+            <p class="about-text">
+            My learning journey is driven by curiosity — I believe that the tech world
+            evolves rapidly, and staying updated is the key. I’m currently developing
+            my skills in JavaScript, Frontend frameworks, and backend fundamentals,
+            while working on real practice projects to sharpen my experience.
+            </p>
+        </div>
+
+        <!-- Right Skills -->
+        <div class="col-lg-6 col-md-10">
+            <div class="row g-4">
+
+            <!-- card 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="about-card text-center p-4">
+                <i class="bi bi-code-slash about-icon"></i>
+                <h5 class="fw-semibold mt-3">Web Development</h5>
+                <p class="about-card-text">
+                    Building responsive, scalable websites using modern tech.
+                </p>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="about-card text-center p-4">
+                <i class="bi bi-lightning-charge about-icon"></i>
+                <h5 class="fw-semibold mt-3">Problem Solving</h5>
+                <p class="about-card-text">
+                    Turning ideas into working solutions with precision.
+                </p>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="about-card text-center p-4">
+                <i class="bi bi-mortarboard about-icon"></i>
+                <h5 class="fw-semibold mt-3">Continuous Learning</h5>
+                <p class="about-card-text">
+                    Growing skills through practice and real projects.
+                </p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- ================ PROJECTS SECTION ================= -->
+    <section id="projects" class="projects-section py-5">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+        <h2 class="section-title fw-bold">My Projects</h2>
+        <p class="section-subtitle text-secondary">
+            A selection of my work, including practice projects and mini apps.
+        </p>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="row g-4">
+
+        <!-- Project Card 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="project-card">
+            <div class="project-image">
+                <img src="images/drumkit.png" alt="Drum Kit Preview">
+                <div class="project-overlay">
+                <a href="https://github.com/Hafiz-ID013/Drum-Kit" target="_blank" class="project-link">
+                    <i class="bi bi-github"></i> View Code
+                </a>
+                </div>
+            </div>
+            <h5 class="project-title mt-3">Drum Kit App</h5>
+            <p class="project-desc">
+                A simple interactive drum kit built using JavaScript event handling.
+            </p>
+            </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="project-card">
+            <div class="project-image">
+                <img src="images/simon.png" alt="Simon Game">
+                <div class="project-overlay">
+                <a href="https://github.com/Hafiz-ID013/Simon-Game-Challenge" target="_blank" class="project-link">
+                    <i class="bi bi-github"></i> View Code
+                </a>
+                </div>
+            </div>
+            <h5 class="project-title mt-3">Simon Game</h5>
+            <p class="project-desc">
+                A pattern memory game with jQuery logic and game state management.
+            </p>
+            </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="project-card">
+            <div class="project-image">
+                <img src="images/tindog.png" alt="TinDog">
+                <div class="project-overlay">
+                <a href="https://github.com/Hafiz-ID013" target="_blank" class="project-link">
+                    <i class="bi bi-github"></i> View Code
+                </a>
+                </div>
+            </div>
+            <h5 class="project-title mt-3">TinDog Landing</h5>
+            <p class="project-desc">
+                A responsive landing page built using Bootstrap and custom styling.
+            </p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact-section py-5">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+        <h2 class="section-title fw-bold">Get In Touch</h2>
+        <p class="section-subtitle text-secondary">
+            Let’s collaborate or discuss new opportunities.
+        </p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="row justify-content-center">
+
+        <div class="col-lg-6 col-md-10 text-center">
+
+            <div class="contact-info mb-4">
+            <i class="bi bi-envelope contact-icon"></i>
+            <p class="contact-text">havis.id013@gmail.com</p>
+            </div>
+
+            <div class="contact-info mb-5">
+            <i class="bi bi-geo-alt contact-icon"></i>
+            <p class="contact-text">Semarang, Indonesia</p>
+            </div>
+
+            <!-- Button to open modal -->
+            <button class="btn btn-primary px-4 py-2 contact-btn"
+            data-bs-toggle="modal" data-bs-target="#contactModal">
+            Send Message
+            </button>
+        </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- ================= CONTACT MODAL ================= -->
+    <div class="modal fade" id="contactModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-4 border-0">
+
+        <!-- Close Button -->
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal"></button>
+
+        <!-- Modal Title -->
+        <h5 class="mb-3 fw-bold">Send Me a Message</h5>
+
+        <!-- Form -->
+        <form action="mailto:havis.id013@gmail.com" method="POST" enctype="text/plain">
+
+            <div class="mb-3">
+            <label class="form-label fw-semibold">Your Name</label>
+            <input type="text" class="form-control" name="name" required>
+            </div>
+
+            <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input type="email" class="form-control" name="email" required>
+            </div>
+
+            <div class="mb-3">
+            <label class="form-label fw-semibold">Message</label>
+            <textarea class="form-control" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+            Send
+            </button>
+
+        </form>
+
+        </div>
+    </div>
+    </div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
