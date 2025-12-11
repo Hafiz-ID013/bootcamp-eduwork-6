@@ -73,7 +73,7 @@
 /* ================= HERO SECTION ================= */
 
 .hero-section {
-  min-height: 90vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #f7f9ff 0%, #eef1ff 100%);
