@@ -44,7 +44,7 @@
                 <div class="mb-3">
                   <label class="form-label">Product Category</label>                  
                   <select class="form-select" id="category" name="category" required>
-                    <option value="" selected disabled>Choos Category</option>
+                    <option value="" selected disabled>Choose Category</option>
                     <option value="Electronic">Electronic</option>
                     <option value="Clothes">Clothes</option>
                     <option value="Food">Food</option>
