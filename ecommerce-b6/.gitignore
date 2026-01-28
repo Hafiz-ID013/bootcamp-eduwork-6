@@ -1,0 +1,69 @@
+# =========================
+# Laravel Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dependencies
+# =========================
+/vendor
+/node_modules
+
+# =========================
+# Compiled Assets
+# =========================
+/public/build
+/public/hot
+/public/storage
+
+# =========================
+# Storage
+# =========================
+/storage
+/storage/*.key
+
+# =========================
+# Logs & Cache
+# =========================
+*.log
+.phpunit.result.cache
+.phpunit.cache
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode
+.idea
+.zed
+.fleet
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing
+# =========================
+/tests/.phpunit.result.cache
+
+# =========================
+# Composer / Auth
+# =========================
+auth.json
+
+# =========================
+# Homestead
+# =========================
+Homestead.json
+Homestead.yaml
+
+# =========================
+# Archives (IMPORTANT)
+# =========================
+*.zip
+*.rar
+*.7z
