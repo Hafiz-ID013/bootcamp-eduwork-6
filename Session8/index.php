@@ -2,14 +2,14 @@
 require_once "connection_pdo.php";
 
 /* 🔒 Safety check */
-if (!isset($conn)) {
+if (!isset($pdo)) {
     die("Database connection variable not found.");
 }
 
 $selectedCategory = isset($_GET['category']) ? $_GET['category'] : "";
 
 /* Get categories */
-$categoryQuery = $conn->query("SELECT DISTINCT category FROM products ORDER BY category ASC");
+$categoryQuery = $pdo->query("SELECT DISTINCT category FROM products ORDER BY category ASC");
 $categories = $categoryQuery->fetchAll(PDO::FETCH_ASSOC);
 
 /* Get products */
@@ -21,7 +21,7 @@ if ($selectedCategory !== "") {
     $params[':category'] = $selectedCategory;
 }
 
-$stmt = $conn->prepare($sql);
+$stmt = $pdo->prepare($sql);
 $stmt->execute($params);
 $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
